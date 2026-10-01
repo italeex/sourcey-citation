@@ -79,5 +79,80 @@
   "Search-engine ranking position was not measured from this environment; the claim does not depend on a specific position.",
   "The page makes no traffic or ranking claim."
  ],
- "delivered_at": "2026-10-01T11:05:00Z"
+ "delivered_at": "2026-10-01T11:05:00Z",
+ "observations": [
+  {
+   "observation_type": "citation_link_live",
+   "claim": "The delivered page links this Sourcey property and it answers publicly.",
+   "url": "https://sourcey.com",
+   "http_status": 200,
+   "bytes": 82690,
+   "method": "HTTP GET through a proxy, no authentication, 2026-10-01",
+   "result": "live"
+  },
+  {
+   "observation_type": "citation_link_live",
+   "claim": "The delivered page links this Sourcey property and it answers publicly.",
+   "url": "https://sourcey.com/agent-readiness",
+   "http_status": 200,
+   "bytes": 136318,
+   "method": "HTTP GET through a proxy, no authentication, 2026-10-01",
+   "result": "live"
+  },
+  {
+   "observation_type": "citation_link_live",
+   "claim": "The delivered page links this Sourcey property and it answers publicly.",
+   "url": "https://sourcey.com/companies.json",
+   "http_status": 200,
+   "bytes": 785164,
+   "method": "HTTP GET through a proxy, no authentication, 2026-10-01",
+   "result": "live"
+  },
+  {
+   "observation_type": "citation_link_live",
+   "claim": "The delivered page links this Sourcey property and it answers publicly.",
+   "url": "https://sourcey.com/startup-credits",
+   "http_status": 200,
+   "bytes": 105412,
+   "method": "HTTP GET through a proxy, no authentication, 2026-10-01",
+   "result": "live"
+  },
+  {
+   "observation_type": "fact_verified_live",
+   "claim": "sourcey.com/companies.json returns a machine-readable record list",
+   "url": "https://sourcey.com/companies.json",
+   "http_status": 200,
+   "value": 542,
+   "method": "counted from live response body, not from memory or third-party copy",
+   "result": "confirmed"
+  },
+  {
+   "observation_type": "fact_verified_live",
+   "claim": "startup-credits section exists",
+   "url": "https://sourcey.com/startup-credits",
+   "http_status": 200,
+   "value": null,
+   "method": "counted from live response body, not from memory or third-party copy",
+   "result": "confirmed"
+  },
+  {
+   "observation_type": "fact_verified_live",
+   "claim": "agent-readiness report cards exist",
+   "url": "https://sourcey.com/agent-readiness",
+   "http_status": 200,
+   "value": null,
+   "method": "counted from live response body, not from memory or third-party copy",
+   "result": "confirmed"
+  },
+  {
+   "observation_type": "fact_verified_live",
+   "claim": "main directory answers",
+   "url": "https://sourcey.com",
+   "http_status": 200,
+   "value": null,
+   "method": "counted from live response body, not from memory or third-party copy",
+   "result": "confirmed"
+  }
+ ],
+ "observation_count": 8
 }
